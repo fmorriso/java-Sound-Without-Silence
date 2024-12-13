@@ -2,9 +2,7 @@ import java.util.Arrays;
 
 public class Sound {
 
-    public int[] getSamples() {
-        return samples;
-    }
+
 
     /**
      * the array of values in this sound; guaranteed not to be null
@@ -14,6 +12,8 @@ public class Sound {
                     0, 0, 0, 0, -14, 0, -35, -39, 0, -7, 16, 32, 37, 29, 0, 0
             };
 
+    public int[] getSamples() { return samples; };
+            
     /**
      * Removes all silence from the beginning of this sound. Silence is represented
      * by a value of 0.

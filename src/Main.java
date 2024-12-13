@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println(
                 "The original array of samples is " + Arrays.toString(s.getSamples()));
-        //s.trimSilenceFromBeginning();
+
         s.trimSilenceFromBeginning();
         System.out.println(
                 "The new array of samples is " + Arrays.toString(s.getSamples()));
